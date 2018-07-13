@@ -4,7 +4,7 @@ Users address book/list from Mysql Database in PHP
 
 
 
-online  http://userslist.cba.pl/index.php
+online  http://userslist.cba.pl/
 
 
 table users 
