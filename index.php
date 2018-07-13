@@ -26,7 +26,7 @@ require 'app' . DIRECTORY_SEPARATOR . 'header.php';
                     "<td title='Id: '>" . $row['id'] . "</td>" .
                     "<td title='Name: '>" . $row['fname'] . "</td>" .
                     "<td title='LastName: '>" . $row['lname'] . "</td>" .
-                    "<td >" . $addressD . " " . $row["email"] . "<br> Address :" . $row["address"] . "<br> Phone :" . $row["phone"] . "</td>" .
+                    "<td >" . $addressD . " " . $row["email"] . "<br> Address : " . $row["address"] . "<br> Phone : " . $row["phone"] . "</td>" .
                     '<td><img src="data:image/jpeg;base64,' . base64_encode($row['name']) . '" height="200" width="200" class="img-thumnail"/></td>' .
                     '<td><a href="update.php?id=' . $row['id'] . '">Update</a></td>' .
                     '<td><a href="delete.php?id=' . $row['id'] . '">Delete</a></td>';
