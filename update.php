@@ -67,7 +67,7 @@ $results = mysqli_query($connect, $sql);
                     </div>
 
                     <div class="input-fields">
-                         <label for="address">Aaddress :</label><br>
+                         <label for="address">Address :</label><br>
                         <input type="text" name="address" title="Address: " class="col-6" value="<?php echo $key['address']; ?>" />
                     </div>
                     <div class="input-fields">
